@@ -1,0 +1,74 @@
+header{
+    width: 100%;
+    padding: 15px;
+}
+.border  .d-flex article img{
+    height: 300px;
+}
+.flex-sm-column {
+    flex-direction: column !important;
+  }
+  .justify-content-center {
+    justify-content: center !important;
+  }
+  .menu3{
+    display:flex ;
+
+}
+
+.servicios{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.bolas{
+    height: 100px;
+    width: 100px;
+    background-color:pink;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.bls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu3 .seccion2{
+    display: grid;
+    grid-template-columns:repeat(5, 1fr) ;
+    width: 80%;
+    padding: 20px;
+}
+
+.menu3 .articulo{
+    display: grid;
+    grid-template-columns:repeat(5, 1fr) ;
+    width: 50%;
+}
+.noticias{
+    width: 20%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+.secs{
+    width: 25%;
+}
+
+.galeria{
+ gap: 15px;
+}
+.imgs{
+    width: 100%;
+}
+.tarjet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
